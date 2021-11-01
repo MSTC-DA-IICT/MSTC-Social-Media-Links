@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 
 img {
   display: block;
-  margin: 2rem auto;
+  margin: 1.7rem auto;
   width: 15rem;
   height: 15rem;
   border-radius:50%;
@@ -44,5 +45,5 @@ h1 {
   font-family: tahoma;
   color: white;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
