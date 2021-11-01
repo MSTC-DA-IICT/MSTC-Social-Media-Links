@@ -13,6 +13,8 @@ img {
   margin: 2rem auto;
   width: 15rem;
   height: 15rem;
+  border-radius:50%;
+  box-shadow: 7px 7px 12px rgba(0,0,0,0.9);
 }
 
 .links {
@@ -31,6 +33,11 @@ img {
   margin: 8px 0;
   border-radius: 10px;
   text-decoration: none;
+  transition: all 0.5s;
+}
+
+.links a:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5)
 }
 
 h1 {
