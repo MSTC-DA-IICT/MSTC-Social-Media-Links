@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: blueviolet;
+  background-color: rgb(144, 58, 224);
 }
 
 img {
@@ -13,12 +13,10 @@ img {
   margin: 2rem auto;
   width: 15rem;
   height: 15rem;
-  background-color: rebeccapurple;
 }
 
 .links {
   width: 100vw;
-  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,10 +24,18 @@ img {
 }
 
 .links a {
-  color: white;
-  background: black;
+  font-family: tahoma;
+  color: black;
+  background: white;
   padding: 12px 2rem;
   margin: 8px 0;
   border-radius: 10px;
   text-decoration: none;
+}
+
+h1 {
+  font-family: tahoma;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
 }
