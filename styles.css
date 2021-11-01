@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+img {
+  display: block;
+  margin: 2rem auto;
+  width: 15rem;
+  height: 15rem;
+  background-color: rebeccapurple;
+}
+
+.links {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links a {
+  color: white;
+  background: black;
+  padding: 12px 2rem;
+  margin: 8px 0;
+  border-radius: 10px;
+  text-decoration: none;
+}
