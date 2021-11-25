@@ -24,7 +24,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-/*   flex-direction: column; */
   flex-wrap: wrap;
   width: 45rem;
   margin: 3rem auto;
@@ -52,4 +51,13 @@ h1 {
   color: white;
   text-align: center;
   margin-bottom: 16px;
+}
+
+.ways {
+  padding: 20px;
+}
+@media screen and (max-width: 740px) {
+  .links {
+      width: 70%;
+  }
 }
