@@ -12,8 +12,8 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   width: 15rem;
   height: 15rem;
   border-radius:50%;
@@ -25,9 +25,9 @@ img {
   align-items: center;
   justify-content: center;
 /*   flex-direction: column; */
-  flex-wrap-wrap;
+  flex-wrap: wrap;
   width: 45rem;
-  margin: 4rem auto;
+  margin: 3rem auto;
 }
 
 .links a {
